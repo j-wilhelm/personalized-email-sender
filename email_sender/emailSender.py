@@ -1,4 +1,0 @@
-import email_sender.utils.util_functions
-
-path_to_excel_file = "test_excel.xlsx"
-member_dicts = util_functions.

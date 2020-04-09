@@ -1,5 +1,6 @@
 import openpyxl as oxl
 
+
 def parse_excel(filepath):
     # Has to loop over rows.
     # Append each relevant object to a dictionary
@@ -46,6 +47,7 @@ def parse_excel(filepath):
                 member_dict["info"][colname] = current_sheet[row_ix][col_ix].value
 
         member_dictionaries.append(member_dict)
+
 
 def init_dict(emailaddress):
     dict = {}
