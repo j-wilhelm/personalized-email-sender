@@ -1,4 +1,4 @@
-# Project Title
+# PersonalizedEmailSender
 PersonalizedEmailSender is a small package which sends personalized emails to a list of recipients.
 
 ## Description
